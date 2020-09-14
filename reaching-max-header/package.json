@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-max-header-issue",
+  "version": "1.0.0",
+  "description": "Quick demo test header size in nodejs versions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start-with-fix":"node --max-http-header-size 16000 server.js"
+  },
+  "author": "edisga",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
